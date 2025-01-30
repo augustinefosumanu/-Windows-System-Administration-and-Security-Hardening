@@ -1,1 +1,1 @@
-# Windows System Administration and Security Hardening
+# Windows System Administration and Security Hardening - Good Corp, Inc.
