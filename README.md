@@ -1,11 +1,15 @@
 # Windows System Administration and Security Hardening - Good Corp, Inc.
 (Ficticious Company)
 
-In this lab, I performed key system administration tasks on a Windows workstation to improve security and compliance: </br>
--  System Cleanup: Managed processes using Task Manager and streamlined startup items.</br>
--  Report Creation: Gathered system info (users, groups, password policies) via CMD and appended to report.txt.</br>
--  User & Security Management: Created and configured Bob (regular user) and Andrew (admin user) with secure passwords.</br>
--  Password Policy Enforcement: Applied strict password policies (90-day max age, 12-character min length, complexity enabled) via gpedit.</br>
+This project showcases key Windows administration and security tasks performed as a junior system administrator, ensuring compliance, security, and efficient system management.
+
+Key Tasks:
+System Cleanup & Reporting: Managed processes, gathered system information using CMD, and logged findings in report.txt.
+User & Group Management: Created users and groups, enforced password policies, and configured Active Directory.
+Security & Compliance: Implemented GPOs, restricted unnecessary apps via PowerShell, and configured SIEM-compatible logging.
+Task Automation: Used Task Scheduler for automated reporting and system monitoring.
+Windows Update & Threat Investigation: Ensured OS security patches were applied and analyzed user permissions, processes, and system anomalies for potential threats.
+</br>
 
 <h2> Step :  </h2>
 
