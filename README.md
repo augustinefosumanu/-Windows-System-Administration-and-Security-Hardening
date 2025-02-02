@@ -4,7 +4,6 @@
 This project showcases key Windows administration and security tasks performed as a junior system administrator, ensuring compliance, security, and efficient system management.</br>
 
 Key Tasks:</br>
-<b>System Cleanup & Reporting</b>: Managed processes, gathered system information using CMD, and logged findings in report.txt.</br>
 <b>User & Group Management</b>: Created users and groups, enforced password policies, and configured Active Directory.</br>
 <b>Security & Compliance</b>: Implemented GPOs, restricted unnecessary apps via PowerShell, and configured SIEM-compatible logging.</br>
 <b>Task Automation</b>: Used Task Scheduler for automated reporting and system monitoring.</br>
