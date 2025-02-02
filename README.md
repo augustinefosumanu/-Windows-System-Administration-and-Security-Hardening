@@ -113,48 +113,85 @@ Key Tasks:</br>
 <br />
 
   
-<h2> Step :  </h2>
+<h2> Step 12: Configuring Password Policies Using Group Policy Editor </h2>
 
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/twgjtBV.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/6hHR51w.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/7vIIdRT.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
   
-<h2> Step :  </h2>
+<h2> Step 13: Moving Files from User Directories to C:\ </h2>
 
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/pQf23Na.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/RXxqcAJ.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
   
-<h2> Step :  </h2>
+<h2> Step 14: Creating Directories </h2>
 
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/0riJBmr.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/1ezeqHJ.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
   
-<h2> Step :  </h2>
+<h2> Step 15: Listing Available Event Logs </h2>
 
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/MhWCuLE.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
+<p align="center">
+<img src="https://i.imgur.com/W2zFjYi.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/pS4C4wB.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
   
-<h2> Step :  </h2>
+<h2> Step 16: Creating a PowerShell Script File </h2>
 
 <br />
 <br />
 <p align="center">
-<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<img src="https://i.imgur.com/Gq0jEZz.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/tVkXIoS.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/44rnybi.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/8jxf8pI.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
   
