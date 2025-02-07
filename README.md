@@ -83,7 +83,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 <br />
 
 <h2> Step 10: Creating a Regular User </h2>
-
+To create a regular user named <b>Anselm</b> with the password Ilovesales123! using the <b>net user</b> command in the Windows Command Prompt, I executed the following command
 <br />
 <br />
 <p align="center">
@@ -92,7 +92,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 <br />
 
 <h2> Step 11: Adding User to Administrators Group </h2>
-
+To add user named <b>Anselm</b> to the Administrators group, I executed the following commands in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -114,7 +114,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 
   
 <h2> Step 12: Configuring Password Policies Using Group Policy Editor </h2>
-
+I launch gpedit.msc (Group Policy Editor) and set password policies for the entire Windows machine
 <br />
 <br />
 <p align="center">
@@ -131,7 +131,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 <br />
   
 <h2> Step 13: Moving Files from User Directories to C:\ </h2>
-
+To move the contracts folder from Alex's desktop to the C:\ drive, I executed the following command in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -144,7 +144,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 <br />
   
 <h2> Step 14: Creating Directories </h2>
-
+To create the Backup, Script, and Log directories in the C:\ drive, I executed the following commands in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -157,7 +157,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 <br />
   
 <h2> Step 15: Listing Available Event Logs </h2>
-
+To retrieve the Security and Application logs using PowerShell and output the latest 100 events in JSON format to the C:\Log directory, I executed the following command and verified that all contents had been retrieved as specified
 <br />
 <br />
 <p align="center">
@@ -175,7 +175,7 @@ To enumerate the current password policy using the <b>net accounts</b> command, 
 
   
 <h2> Step 16: Creating a PowerShell Script File </h2>
-
+I created a PowerShell script called removepackages.ps1 to automate the uninstallation of packages listed in a CSV file named chocoactivity.csv. The script first imports the CSV using the Import-Csv cmdlet, and then loops through each package name using a foreach loop. For each package, the script runs the choco uninstall command with the -y parameter to automatically confirm the uninstallation. By executing this script, it initiates the uninstallation of the listed packages, streamlining the process of removing multiple packages efficiently.
 <br />
 <br />
 <p align="center">
