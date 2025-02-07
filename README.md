@@ -11,7 +11,7 @@ Key Tasks:</br>
 </br>
 
 <h2> Step 1: Creating a Reports Folder on the Desktop </h2>
-
+I executed the following command in the Windows Command Prompt to create a "reports" folder on the user's desktop
 <br />
 <br />
 <p align="center">
@@ -20,7 +20,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 2: Creating a Text File </h2>
-
+I executed the following command in the Windows Command Prompt to create a report.txt file with the title "Baselining Report" inside the reports folder
 <br />
 <br />
 <p align="center">
@@ -29,7 +29,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 3: Appending Texts to a File </h2>
-
+I executed the following command in the Windows Command Prompt to append a line "Created by [your name here]" to the report.txt file
 <br />
 <br />
 <p align="center">
@@ -38,7 +38,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 4: Using Environment Variables in the Command Line </h2>
-
+To append the desired information (OS, date, and username) to the report.txt file using environment variables, I executed the following command in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -47,7 +47,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 6: Enumerating Users </h2>
-
+To enumerate all users on the system using the <b>net user</b> command, I executed the following command in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -56,7 +56,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 7: Checking Password Status </h2>
-
+To find the password status of the user Alex, I executed the following command in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -65,7 +65,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 8: Enumerating Local Groups </h2>
-
+To enumerate the local groups on the system using the <b>net localgroup</b> command, I executed the following command in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
@@ -74,7 +74,7 @@ Key Tasks:</br>
 <br />
 
 <h2> Step 9: Retrieving Password Policy </h2>
-
+To enumerate the current password policy using the <b>net accounts</b> command, I executed the following command in the Windows Command Prompt
 <br />
 <br />
 <p align="center">
