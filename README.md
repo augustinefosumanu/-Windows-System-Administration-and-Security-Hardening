@@ -194,6 +194,147 @@ I created a PowerShell script called removepackages.ps1 to automate the uninstal
 <br />
 <br />
   
+<h2> Setting Up Organizational Units in Active Directory </h2>
+Using the Active Directory Users and Computers (ADUC) tool, I created a top-level GC Users organizational unit (OU) to manage department-specific user accounts. Within this OU, I established Finance sub-OU to organize users based on their respective departments.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/7cPlpdB.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/bzw1gzg.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/SJ78oNf.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/gKyMGED.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/Ja5Rzjz.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+  
+<h2> Creating a User Account for Bright in the Finance Organizational Unit</h2>
+I created a new user account for Bright within the Finance Organizational Unit (OU) using Active Directory Users and Computers (ADUC). I set Bright's password to Ilovefinance!, ensuring it meets the necessary password policy requirements for the domain.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/WriG9RS.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/9ehQNeR.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/onioiIV.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/1AMpKNC.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+  
+<h2> Creating and Assigning Users to the Finance Group in Active Directory </h2>
+In Active Directory Users and Computers (ADUC), I created a Finance group within the Finance organizational unit (OU). Then, I added the user Bright to the Finance group to ensure he has the appropriate access and permissions for the department.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/1fICxdX.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/mCD4YJG.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/IdALPbl.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/1E51V51.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/0x9Fic9.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/naVBb2Z.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/dRmbH7d.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+  
+<h2> Creating a Group Policy Object (GPO) Using Group Policy Management </h2>
+I navigated to the Group Policy Management tool to create a Group Policy Object (GPO). The Group Policy Management tool, similar to the Active Directory Users and Computers tool, allowed me to configure and manage policies across the domain. This process ensures consistent settings and security measures for users and computers within the organization.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/DneoXwY.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2> Naming the GPO "Limit Settings </h2>
+I created a Group Policy Object (GPO) and assign it the name Limit Settings. This GPO will be used to configure and manage specific policies within the Active Directory environment, allowing for streamlined management of settings and security configurations across designated users or computers
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/F9UCRHm.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/x9RNffP.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/RnalYrJ.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/kaxmS4h.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/SvKKRbO.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2> Linking a GPO to the Finance Organizational Unit </h2>
+Once the Group Policy Object (GPO) had been enabled, I linked it to the Finance organizational unit (OU) to apply the policy settings specifically to users and computers within that department. This ensures that the designated configurations and restrictions are enforced for the Finance OU.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/Fxl9zI9.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/HNLF6PG.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/qf6C0PK.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2> Adding the Finance Group to the Remote Desktop Users Group </h2>
+To grant remote desktop access to the Finance group, I used the Active Directory Users and Computers (ADUC) tool to add the Finance security group to the Remote Desktop Users group. This ensures that all members of the Finance group have the necessary permissions to access remote desktop sessions on the network.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/vh4kpqK.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/YXzd83D.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/8blvlgJ.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2> Refreshing Policy and Group Changes on a Windows 10 Machine </h2>
+To ensure that the latest policy and group changes are applied, I refreshed the settings on the Windows 10 machine. This can be done by using tools like gpupdate to manually force a policy refresh, ensuring that any updates from Active Directory, group memberships, or security settings take effect immediately.
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/Ars3waJ.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/ligIWr3.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/9hmcfWY.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
 <h2>  </h2>
 
 <br />
@@ -202,16 +343,11 @@ I created a PowerShell script called removepackages.ps1 to automate the uninstal
 <img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
-  
-<h2> </h2>
-
-<br />
-<br />
-<p align="center">
 <img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
-  
+
+
 <h2>  </h2>
 
 <br />
@@ -220,12 +356,42 @@ I created a PowerShell script called removepackages.ps1 to automate the uninstal
 <img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
-  
-<h2> </h2>
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2>  </h2>
 
 <br />
 <br />
 <p align="center">
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
+
+<h2>  </h2>
+
+<br />
+<br />
+<p align="center">
+<img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
+<br />
+<br />
 <img src="https://i.imgur.com/.png" height="80%" width="90%" alt=""/>
 <br />
 <br />
