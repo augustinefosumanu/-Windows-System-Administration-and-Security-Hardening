@@ -1,11 +1,7 @@
 # Windows System Administration and Security Hardening - Good Corp, Inc.
 (Ficticious Company)
 
-This project showcases key Windows administration and security tasks performed as a junior system administrator, ensuring compliance, security, and efficient system management.</br>
-
-Key Tasks:</br>
-<b>User & Group Management</b>: Created users and groups, enforced password policies, and configured Active Directory.</br>
-<b>Security & Compliance</b>: Implemented GPOs, restricted unnecessary apps via PowerShell, and configured SIEM-compatible logging.</br>
+This lab showcases key Windows administration and security tasks performed as a junior system administrator, ensuring compliance, security, and efficient system management. I Created users and groups, enforced password policies, and configured Active Directory. I also implemented GPOs, restricted unnecessary apps via PowerShell, and configured SIEM-compatible logging.</br>
 
 <h2> Creating a Reports Folder on the Desktop </h2>
 I executed the following command in the Windows Command Prompt to create a "reports" folder on the user's desktop
